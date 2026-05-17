@@ -56,7 +56,7 @@ const About = () => {
       <div className="about-container">
         <div className="about-image">
           <div className="avatar-card">
-            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800" alt="About Me" />
+            <img src="/assets/My_photo.png" alt="Kaushal Kumar" />
           </div>
         </div>
 

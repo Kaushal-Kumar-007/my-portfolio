@@ -153,6 +153,15 @@ body{
   align-items:center;
 }
 
+.about-image{
+  display: flex;
+  justify-content: center;
+}
+
+.avatar-card{
+  width: 300px;
+}
+
 .avatar-card img{
   width:100%;
   border-radius:20px;
