@@ -1,0 +1,28 @@
+import React, { useState } from 'react';
+
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <header>
+      <nav className="navbar">
+        <div className="logo">Analytics.</div>
+
+        <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
+          <li><a href="#about" onClick={() => setIsOpen(false)}>About</a></li>
+          <li><a href="#skills" onClick={() => setIsOpen(false)}>Skills</a></li>
+          <li><a href="#projects" onClick={() => setIsOpen(false)}>Projects</a></li>
+          <li><a href="#contact" onClick={() => setIsOpen(false)}>Contact</a></li>
+        </ul>
+
+        <div className={`hamburger ${isOpen ? 'toggle' : ''}`} onClick={() => setIsOpen(!isOpen)}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+  );
+};
+
+export default Navbar;
