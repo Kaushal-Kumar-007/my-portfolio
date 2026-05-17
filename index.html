@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Data Analyst Portfolio</title>
+
+  <link rel="stylesheet" href="style.css"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- LOADER -->
+  <div class="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- SCROLL PROGRESS -->
+  <div id="progress-bar"></div>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Analytics.</div>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+
+    <div class="hero-content">
+      <p class="hero-intro">Hello, I'm</p>
+
+      <h1>John Doe</h1>
+
+      <h2>
+        <span id="typing"></span>
+      </h2>
+
+      <p class="hero-text">
+        Turning raw data into meaningful insights through analytics,
+        dashboards, and business intelligence solutions.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary-btn">View Projects</a>
+        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+
+    <div class="section-title">
+      <h2>About Me</h2>
+    </div>
+
+    <div class="about-container">
+
+      <div class="about-image">
+        <div class="avatar-card">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800" alt="">
+        </div>
+      </div>
+
+      <div class="about-content">
+
+        <p>
+          I’m a passionate Data Analyst focused on transforming complex
+          datasets into business insights that drive smarter decisions.
+          I enjoy creating dashboards, analyzing trends, and building
+          analytical solutions using Power BI, SQL, Python, and visualization tools.
+        </p>
+
+        <div class="counter-wrapper">
+
+          <div class="counter-card">
+            <h3 data-target="25">0</h3>
+            <p>Projects</p>
+          </div>
+
+          <div class="counter-card">
+            <h3 data-target="15">0</h3>
+            <p>Tools Learned</p>
+          </div>
+
+          <div class="counter-card">
+            <h3 data-target="40">0</h3>
+            <p>Dashboards</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills section" id="skills">
+
+    <div class="section-title">
+      <h2>Skills</h2>
+    </div>
+
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <h3>Data Visualization</h3>
+        <p>Power BI, Plotly, Matplotlib, Seaborn</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Data Analysis</h3>
+        <p>Pandas, NumPy, DAX, Power Query</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Database & Querying</h3>
+        <p>MySQL, SQL, Power Pivot</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Programming</h3>
+        <p>Python, Data Cleaning, Automation</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Reporting</h3>
+        <p>Excel, Google Sheets, KPI Reporting</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects section" id="projects">
+
+    <div class="section-title">
+      <h2>Projects</h2>
+    </div>
+
+    <div class="project-grid">
+
+      <div class="project-card">
+        <div class="project-image"></div>
+
+        <div class="project-content">
+          <h3>Power BI Sales Dashboard</h3>
+
+          <p>
+            Interactive dashboard analyzing revenue, customer trends,
+            and regional sales performance.
+          </p>
+
+          <div class="tags">
+            <span>Power BI</span>
+            <span>DAX</span>
+            <span>Power Query</span>
+          </div>
+
+          <div class="project-buttons">
+            <a href="#">Dashboard</a>
+            <a href="#">GitHub</a>
+            <a href="#">Case Study</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image"></div>
+
+        <div class="project-content">
+          <h3>SQL E-commerce Analysis</h3>
+
+          <p>
+            Deep analysis of customer orders, retention, and purchase patterns using SQL.
+          </p>
+
+          <div class="tags">
+            <span>SQL</span>
+            <span>MySQL</span>
+            <span>Analytics</span>
+          </div>
+
+          <div class="project-buttons">
+            <a href="#">Dashboard</a>
+            <a href="#">GitHub</a>
+            <a href="#">Case Study</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image"></div>
+
+        <div class="project-content">
+          <h3>Python Data Cleaning</h3>
+
+          <p>
+            Automated cleaning pipeline using Pandas and NumPy for messy datasets.
+          </p>
+
+          <div class="tags">
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>NumPy</span>
+          </div>
+
+          <div class="project-buttons">
+            <a href="#">Dashboard</a>
+            <a href="#">GitHub</a>
+            <a href="#">Case Study</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- BLOG -->
+  <section class="blog section" id="blog">
+
+    <div class="section-title">
+      <h2>Latest Blogs</h2>
+    </div>
+
+    <div class="blog-grid">
+
+      <div class="blog-card">
+        <h3>How I Built My First Power BI Dashboard</h3>
+        <p>5 min read • Jan 2026</p>
+        <a href="#">Read More</a>
+      </div>
+
+      <div class="blog-card">
+        <h3>SQL Queries Every Analyst Should Know</h3>
+        <p>7 min read • Feb 2026</p>
+        <a href="#">Read More</a>
+      </div>
+
+      <div class="blog-card">
+        <h3>Pandas Tricks for Faster Data Cleaning</h3>
+        <p>6 min read • March 2026</p>
+        <a href="#">Read More</a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+
+    <div class="section-title">
+      <h2>Contact Me</h2>
+    </div>
+
+    <div class="contact-container">
+
+      <form class="contact-form">
+
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+
+        <textarea rows="6" placeholder="Your Message"></textarea>
+
+        <button type="submit" class="btn primary-btn">
+          Send Message
+        </button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+
+    <p>
+      Built with HTML, CSS & JavaScript
+    </p>
+
+    <p>
+      © 2026 Data Analyst Portfolio
+    </p>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
