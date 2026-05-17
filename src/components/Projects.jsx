@@ -2,17 +2,17 @@ import React from 'react';
 
 const projectsData = [
   {
-    title: "Power BI Sales Dashboard",
+    title: "Power Bi Ecommerce Dashboard",
     description: "Interactive dashboard analyzing revenue, customer trends, and regional sales performance.",
     tags: ["Power BI", "DAX", "Power Query"],
-    link: "https://docs.google.com/presentation/d/181W_LJo2j8-2n6fabyeWpu-HF3iBdkgai7TsAYjM5yk/edit?usp=sharing",
+    link: "https://www.canva.com/design/DAHJ7xdFlKQ/kRSYlXoLajgUqPg8oIQ3Kw/view?utm_content=DAHJ7xdFlKQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0507be366c#10",
     image: "https://images.unsplash.com/photo-1551288049-bbbda536339a?q=80&w=1000"
   },
   {
     title: "SQL E-commerce Analysis",
     description: "Deep analysis of customer orders, retention, and purchase patterns using SQL.",
     tags: ["SQL", "MySQL", "Analytics"],
-    link: "https://www.canva.com/design/DAHJ7xdFlKQ/kRSYlXoLajgUqPg8oIQ3Kw/view?utm_content=DAHJ7xdFlKQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0507be366c#10",
+    link: "I will upload the canva ppt link soon",
     image: "https://images.unsplash.com/photo-1543286386-713bdd548da4?q=80&w=1000"
   },
   {
